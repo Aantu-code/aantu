@@ -225,7 +225,6 @@ h6 {
   z-index: 999;
   position: absolute;
   top: 80px;
-
 }
 .popup-layer {
   background-image: url("../img/popup/popup-77.png");
@@ -337,7 +336,7 @@ a.btn-box-2 {
 }
 .hour span {
   padding: 0 5px;
-  font-size: 30px;
+  font-size: 32px;
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#fe1445+0,da01a4+100 */
   background: #fe1445; /* Old browsers */
   background: -moz-linear-gradient(
@@ -372,8 +371,8 @@ a.btn-box-2 {
   line-height: 0;
   text-transform: capitalize;
   color: #000;
-  font-size: 12px;
-  font-weight: 700;
+  font-size: 9px;
+  font-weight: 900;
 }
 .poup-timer {
   display: flex;
