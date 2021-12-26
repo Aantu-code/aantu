@@ -298,13 +298,13 @@ a.btn-box {
   margin-top: 50px;
 }
 a.btn-box::after {
-  width: 106%;
+  width: 105%;
   border: 2px dashed #f41127e8;
-  height: 125%;
+  height: 117%;
   content: "";
   position: absolute;
-  left: -7px;
-  top: -7px;
+  left: -6px;
+  top: -6px;
 }
 a.btn-box-2 {
   text-decoration: none;
