@@ -220,7 +220,7 @@ h6 {
 }
 
 .popup-container {
-  width: 647px;
+  width: 700px;
   height: 665px;
   background-color: #ffffff;
   z-index: 999;
@@ -239,7 +239,7 @@ h6 {
 }
 .pop-bown {
   position: absolute;
-  left: 13px;
+  left: 66px;
   bottom: -62px;
   height: 645px;
 }
@@ -247,7 +247,7 @@ h6 {
   width: 100%;
   height: 100%;
   position: absolute;
-  left: 15px;
+  left: 70px;
   z-index: -1;
   top: -3px;
 }
@@ -258,7 +258,7 @@ h6 {
   font-family: "Poppins";
   text-transform: uppercase;
   color: #bcbad0;
-  padding-top: 74%;
+  padding-top: 67%;
   padding-left: 40px;
   line-height: 1.2;
 }
@@ -371,13 +371,19 @@ a.btn-box-2 {
 }
 .close-icon {
   display: inline-block;
-  font-size: 35px;
+  font-size: 25px;
   position: absolute;
-  right: 50px;
-  top: -6px;
+  right: -20px;
+  top: -20px;
+  background: #ddd;
+  padding: 0px 15px;
+  border-radius: 50px;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
 }
 .close-icon a {
-  color: #000;
+  color: rgba(0, 0, 0, 0.822);
 }
 /*---------------------------------------------------*/
 /*	02) ARLO TOPBAR
