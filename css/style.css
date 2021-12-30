@@ -220,7 +220,7 @@ h6 {
 }
 
 .popup-container {
-  width: 700px;
+  width: 710px;
   height: 665px;
   background-color: #ffffff;
   z-index: 999;
@@ -239,7 +239,7 @@ h6 {
 }
 .pop-bown {
   position: absolute;
-  left: 66px;
+  left: 76px;
   bottom: -62px;
   height: 603px;
   object-fit: cover;
@@ -248,7 +248,7 @@ h6 {
   width: 100%;
   height: 100%;
   position: absolute;
-  left: 70px;
+  left: 80px;
   z-index: -1;
   top: -3px;
 }
@@ -294,24 +294,30 @@ a.btn-box {
   position: relative;
 }
 .popup-btn {
-  margin-left: 40px;
+  margin-left: 50px;
   margin-top: 50px;
 }
-a.btn-box::after {
+
+.largeGaps::after {
   position: absolute;
   content: "";
   width: 100%;
   height: 100%;
-  border: 2px dashed #fd1445;
-  top: -6px;
-  left: -6px;
+  display: inline-block;
   padding: 4px;
+  border: dashed 3px #000;
+  border-image-source: url("http://i.stack.imgur.com/LKclP.png");
+  border-image-slice: 2;
+  border-image-repeat: round;
+  border-image: url("http://i.stack.imgur.com/LKclP.png") 2 round;
+  top: -7px;
+  left: -7px;
 }
 a.btn-box-2 {
   text-decoration: none;
-  padding: 5px 17px;
+  padding: 5px 15px;
   background: #e3e5f2;
-  margin-left: 14px;
+  margin-left: 18px;
   text-transform: uppercase;
   font-size: 12px;
   display: inline-block;
