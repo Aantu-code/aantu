@@ -305,11 +305,13 @@ a.btn-box {
   height: 100%;
   display: inline-block;
   padding: 4px;
-  border: dashed 3px #000;
-  border-image-source: url("http://i.stack.imgur.com/LKclP.png");
+  border: dashed 3px #fe1544;
+  /* border-image-source: url("http://i.stack.imgur.com/LKclP.png"); */
+  border-image-source: url("../img/popup/LKclP.jpg");
   border-image-slice: 2;
   border-image-repeat: round;
-  border-image: url("http://i.stack.imgur.com/LKclP.png") 2 round;
+  /* border-image: url(" http://i.stack.imgur.com/LKclP.png") 2 round; */
+  border-image: url("../img/popup/LKclP.jpg") 2 round;
   top: -7px;
   left: -7px;
 }
