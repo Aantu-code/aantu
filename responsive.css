@@ -9,6 +9,7 @@
   a.btn-box-2,
   a.btn-box {
     margin-top: 12px;
+    margin-bottom: 10px;
   }
   .close-icon {
     right: -15px;
@@ -36,7 +37,7 @@
     padding-top: 10px;
   }
   .popup-btn {
-    margin-left: 85px;
+    margin-left: 70px;
     margin-top: 30px;
   }
 
@@ -45,12 +46,7 @@
     height: auto;
     padding-bottom: 50px;
   }
-  a.btn-box-2,
-  a.btn-box {
-    padding: 5px 8px;
 
-    font-size: 10px;
-  }
   .popup-container {
     width: 80%;
     height: auto;
@@ -89,14 +85,14 @@
   .hour {
     margin-left: 15px;
   }
-  a.btn-box-2,
+  /* a.btn-box-2,
   a.btn-box {
     padding: 4px 5px;
     font-size: 9px;
-  }
-  a.btn-box::after {
+  } */
+  /* a.btn-box::after {
     width: 103%;
-  }
+  } */
 }
 @media screen and (min-width: 1180px), (min-width: 664px) {
   .popup-container {
